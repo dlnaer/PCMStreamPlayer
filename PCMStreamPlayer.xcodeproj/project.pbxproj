@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DFD66B316CB12E60069562E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD66B216CB12E60069562E /* UIKit.framework */; };
+		1DFD66B516CB12E60069562E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD66B416CB12E60069562E /* Foundation.framework */; };
+		1DFD66B716CB12E60069562E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD66B616CB12E60069562E /* CoreGraphics.framework */; };
+		1DFD66BD16CB12E60069562E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD66BB16CB12E60069562E /* InfoPlist.strings */; };
+		1DFD66BF16CB12E60069562E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD66BE16CB12E60069562E /* main.m */; };
+		1DFD66C316CB12E60069562E /* KNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD66C216CB12E60069562E /* KNAppDelegate.m */; };
+		1DFD66C516CB12E60069562E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD66C416CB12E60069562E /* Default.png */; };
+		1DFD66C716CB12E60069562E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD66C616CB12E60069562E /* Default@2x.png */; };
+		1DFD66C916CB12E60069562E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD66C816CB12E60069562E /* Default-568h@2x.png */; };
+		1DFD66CC16CB12E60069562E /* KNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD66CB16CB12E60069562E /* KNViewController.m */; };
+		1DFD66CF16CB12E60069562E /* KNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD66CD16CB12E60069562E /* KNViewController.xib */; };
+		1DFD66D616CB13050069562E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD66D516CB13050069562E /* CoreAudio.framework */; };
+		1DFD66D816CB130C0069562E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD66D716CB130C0069562E /* AudioToolbox.framework */; };
+		1DFD66DA16CB13110069562E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD66D916CB13110069562E /* Accelerate.framework */; };
+		1DFD66DD16CB133A0069562E /* KNAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD66DC16CB133A0069562E /* KNAudioManager.m */; };
+		1DFD66FA16CC727A0069562E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD66F916CC727A0069562E /* OpenAL.framework */; };
+		1DFD66FC16CC72E90069562E /* ila.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD66FB16CC72E90069562E /* ila.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DFD66AF16CB12E60069562E /* PCMStreamPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCMStreamPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFD66B216CB12E60069562E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DFD66B416CB12E60069562E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DFD66B616CB12E60069562E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DFD66BA16CB12E60069562E /* PCMStreamPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCMStreamPlayer-Info.plist"; sourceTree = "<group>"; };
+		1DFD66BC16CB12E60069562E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DFD66BE16CB12E60069562E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DFD66C016CB12E60069562E /* PCMStreamPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCMStreamPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		1DFD66C116CB12E60069562E /* KNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNAppDelegate.h; sourceTree = "<group>"; };
+		1DFD66C216CB12E60069562E /* KNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNAppDelegate.m; sourceTree = "<group>"; };
+		1DFD66C416CB12E60069562E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1DFD66C616CB12E60069562E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1DFD66C816CB12E60069562E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DFD66CA16CB12E60069562E /* KNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNViewController.h; sourceTree = "<group>"; };
+		1DFD66CB16CB12E60069562E /* KNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNViewController.m; sourceTree = "<group>"; };
+		1DFD66CE16CB12E60069562E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KNViewController.xib; sourceTree = "<group>"; };
+		1DFD66D516CB13050069562E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1DFD66D716CB130C0069562E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1DFD66D916CB13110069562E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1DFD66DB16CB133A0069562E /* KNAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAudioManager.h; sourceTree = "<group>"; };
+		1DFD66DC16CB133A0069562E /* KNAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAudioManager.m; sourceTree = "<group>"; };
+		1DFD66F916CC727A0069562E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		1DFD66FB16CC72E90069562E /* ila.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ila.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DFD66AC16CB12E60069562E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFD66FA16CC727A0069562E /* OpenAL.framework in Frameworks */,
+				1DFD66DA16CB13110069562E /* Accelerate.framework in Frameworks */,
+				1DFD66D816CB130C0069562E /* AudioToolbox.framework in Frameworks */,
+				1DFD66D616CB13050069562E /* CoreAudio.framework in Frameworks */,
+				1DFD66B316CB12E60069562E /* UIKit.framework in Frameworks */,
+				1DFD66B516CB12E60069562E /* Foundation.framework in Frameworks */,
+				1DFD66B716CB12E60069562E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DFD66A616CB12E60069562E = {
+			isa = PBXGroup;
+			children = (
+				1DFD66FB16CC72E90069562E /* ila.mp3 */,
+				1DFD66B816CB12E60069562E /* PCMStreamPlayer */,
+				1DFD66B116CB12E60069562E /* Frameworks */,
+				1DFD66B016CB12E60069562E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DFD66B016CB12E60069562E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD66AF16CB12E60069562E /* PCMStreamPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DFD66B116CB12E60069562E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD66F916CC727A0069562E /* OpenAL.framework */,
+				1DFD66D916CB13110069562E /* Accelerate.framework */,
+				1DFD66D716CB130C0069562E /* AudioToolbox.framework */,
+				1DFD66D516CB13050069562E /* CoreAudio.framework */,
+				1DFD66B216CB12E60069562E /* UIKit.framework */,
+				1DFD66B416CB12E60069562E /* Foundation.framework */,
+				1DFD66B616CB12E60069562E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DFD66B816CB12E60069562E /* PCMStreamPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD66DB16CB133A0069562E /* KNAudioManager.h */,
+				1DFD66DC16CB133A0069562E /* KNAudioManager.m */,
+				1DFD66C116CB12E60069562E /* KNAppDelegate.h */,
+				1DFD66C216CB12E60069562E /* KNAppDelegate.m */,
+				1DFD66CA16CB12E60069562E /* KNViewController.h */,
+				1DFD66CB16CB12E60069562E /* KNViewController.m */,
+				1DFD66CD16CB12E60069562E /* KNViewController.xib */,
+				1DFD66B916CB12E60069562E /* Supporting Files */,
+			);
+			path = PCMStreamPlayer;
+			sourceTree = "<group>";
+		};
+		1DFD66B916CB12E60069562E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD66BA16CB12E60069562E /* PCMStreamPlayer-Info.plist */,
+				1DFD66BB16CB12E60069562E /* InfoPlist.strings */,
+				1DFD66BE16CB12E60069562E /* main.m */,
+				1DFD66C016CB12E60069562E /* PCMStreamPlayer-Prefix.pch */,
+				1DFD66C416CB12E60069562E /* Default.png */,
+				1DFD66C616CB12E60069562E /* Default@2x.png */,
+				1DFD66C816CB12E60069562E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DFD66AE16CB12E60069562E /* PCMStreamPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFD66D216CB12E60069562E /* Build configuration list for PBXNativeTarget "PCMStreamPlayer" */;
+			buildPhases = (
+				1DFD66AB16CB12E60069562E /* Sources */,
+				1DFD66AC16CB12E60069562E /* Frameworks */,
+				1DFD66AD16CB12E60069562E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCMStreamPlayer;
+			productName = PCMStreamPlayer;
+			productReference = 1DFD66AF16CB12E60069562E /* PCMStreamPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DFD66A716CB12E60069562E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = saeha;
+			};
+			buildConfigurationList = 1DFD66AA16CB12E60069562E /* Build configuration list for PBXProject "PCMStreamPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DFD66A616CB12E60069562E;
+			productRefGroup = 1DFD66B016CB12E60069562E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DFD66AE16CB12E60069562E /* PCMStreamPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DFD66AD16CB12E60069562E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFD66BD16CB12E60069562E /* InfoPlist.strings in Resources */,
+				1DFD66C516CB12E60069562E /* Default.png in Resources */,
+				1DFD66C716CB12E60069562E /* Default@2x.png in Resources */,
+				1DFD66C916CB12E60069562E /* Default-568h@2x.png in Resources */,
+				1DFD66CF16CB12E60069562E /* KNViewController.xib in Resources */,
+				1DFD66FC16CC72E90069562E /* ila.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DFD66AB16CB12E60069562E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFD66BF16CB12E60069562E /* main.m in Sources */,
+				1DFD66C316CB12E60069562E /* KNAppDelegate.m in Sources */,
+				1DFD66CC16CB12E60069562E /* KNViewController.m in Sources */,
+				1DFD66DD16CB133A0069562E /* KNAudioManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DFD66BB16CB12E60069562E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFD66BC16CB12E60069562E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DFD66CD16CB12E60069562E /* KNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFD66CE16CB12E60069562E /* en */,
+			);
+			name = KNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DFD66D016CB12E60069562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DFD66D116CB12E60069562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DFD66D316CB12E60069562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCMStreamPlayer/PCMStreamPlayer-Prefix.pch";
+				INFOPLIST_FILE = "PCMStreamPlayer/PCMStreamPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DFD66D416CB12E60069562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCMStreamPlayer/PCMStreamPlayer-Prefix.pch";
+				INFOPLIST_FILE = "PCMStreamPlayer/PCMStreamPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DFD66AA16CB12E60069562E /* Build configuration list for PBXProject "PCMStreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFD66D016CB12E60069562E /* Debug */,
+				1DFD66D116CB12E60069562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFD66D216CB12E60069562E /* Build configuration list for PBXNativeTarget "PCMStreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFD66D316CB12E60069562E /* Debug */,
+				1DFD66D416CB12E60069562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DFD66A716CB12E60069562E /* Project object */;
+}
